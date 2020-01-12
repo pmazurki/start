@@ -1,3 +1,6 @@
+ function Fn-GetApp{ 
+
+
 $Yes = new-Object System.Management.Automation.Host.ChoiceDescription "&Yes", "Yes";
 $No = new-Object System.Management.Automation.Host.ChoiceDescription "&No", "No";
 $Choices = [System.Management.Automation.Host.ChoiceDescription[]]($Yes, $No);
@@ -71,4 +74,5 @@ $downloads.GETENUMERATOR()| Sort-Object name | % {
         $ErrorMessage = $_.Exception.Message
         Write-Host "Download $File $ErrorMessage" -ForegroundColor Red
     }         
+}
 }
