@@ -1,5 +1,5 @@
-function Test-1{
-    [Alias('Test-1')]
+function Test-fn{
+    [Alias('Test-fn')]
     Param(<#NoParams#>)
     # Sub CustomObj
 Write-Host " "
