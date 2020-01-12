@@ -15,6 +15,8 @@ $downloads = @{
 
    
     1 = @{File = 'JumpDesktopConnect.exe'; Arg = ''; Source = 'https://jumpdesktop.com/downloads/connect/win'; Dest = ''}
+    2 = @{File = 'firefox64inst.exe'; Arg = ''; Source = 'https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=pl'; Dest = ''}
+    3 = @{File = '7z1805-x64.exe'; Arg = ''; Source = 'https://www.7-zip.org/a/7z1805-x64.exe'; Dest = ''}
 
   
 }
