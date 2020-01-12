@@ -1,4 +1,4 @@
-function Test{
+function Test-1{
     [Alias('Test')]
     Param(<#NoParams#>)
     # Sub CustomObj
