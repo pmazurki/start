@@ -1,4 +1,4 @@
 echo Start
 echo install jumpdesktop
-powershell.exe "iex (https://raw.githubusercontent.com/pmazurki/start/master/install/app.ps1);start" >> C:\Windows\Temp\Start.txt
+powershell.exe "iex (https://raw.githubusercontent.com/pmazurki/start/master/install/test.ps1);
 echo install COMPLETED
